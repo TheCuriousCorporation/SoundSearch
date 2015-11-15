@@ -1,3 +1,4 @@
+/* Uses the soundcloud api to pull in artist data */
 var express = require('express');
 var path = require('path');
 var favicon = require('static-favicon');
