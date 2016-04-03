@@ -34,8 +34,16 @@ $(document).ready(function() {
 	});
 });
 
-
-
+/* Search for a specific user
+$(document).ready(function() {
+	$('#search').click(function() {
+		var user = $('input[name=Soundcloud]').val();
+		SC.get('/users/'+user+'/tracks', {limit: 100}, function(tracks) {
+			$('#results').append(makeCenterFromTracks(tracks));
+		});
+	});
+});
+*/
 
 /*
 $(document).ready(function() {
